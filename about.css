@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+body #background {
+  -webkit-clip-path: polygon(100% 0, 100% 57%, 50% 100%, 0 100%, 0 0);
+          clip-path: polygon(100% 0, 100% 57%, 50% 100%, 0 100%, 0 0);
+  background-color: #008080;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (max-width: 600px) {
+  body #background {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    background: #008080;
+    min-height: 170vh;
+  }
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 5rem;
+  justify-items: center;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.grid > div {
+  color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+body {
+  font: 12px system-ui;
+}
+/*# sourceMappingURL=about.css.map */

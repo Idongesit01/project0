@@ -1,0 +1,86 @@
+.nav-link{
+    color: teal !important;
+    font-size: 20px !important;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+}
+/* navbar styling ends here */
+#header{
+    font-family: cursive;
+}
+/* header styling ends here */
+.img{
+    width: auto;
+    height: 420px !important;
+}
+@media(max-width:768px) {
+    .img {
+   height:350px !important;
+    }
+}
+@media(max-width:425px) {
+    .img {
+   height:210px !important;
+    }
+}
+@media(max-width:375px) {
+    .img {
+   height:190px !important;
+    }
+}
+/* images styling ends here */
+ul  {
+    list-style-type:none;
+    color:white;
+    text-decoration:none;
+}
+.fonts{
+    color:teal!important;
+    height: 30px !important;
+    width: 30px !important;
+}
+/* styling for footer ends  */
+.card{
+    background-color: teal !important;
+    text-align: center;
+}
+.btn{
+    color: teal !important;
+}
+a:link {
+    text-decoration: none;
+    color:white !important;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: white;
+}
+/* styling for portfolio ends here */
+.background{
+    background-color: teal !important;
+}
+.cont{
+    color:white!important;
+    height: 50px !important;
+}
+.cont:hover{
+    text-shadow: 0 0 10px;
+}
+span{
+    font-family: cursive;
+    font-size: 40px;
+    color:white;
+}
+/* styling for contaxt ends here */
